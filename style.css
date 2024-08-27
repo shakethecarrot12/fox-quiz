@@ -1,10 +1,15 @@
 /*reset*/
-body{
+body,h1{
     margin:unset;
 }
 
 :root{
     background-image: url(images/bg.png);
+}
+
+h1,p{
+    font-size: 14px;
+    font-weight: normal;
 }
 
 
@@ -18,19 +23,41 @@ body{
     min-width: 300px;
 }
 
+
+/*top*/
 .fox-top{
-    content:fit-content;
-    background-image: url(images/animal07.png);
+    
+}
+.fox-img{
     
 }
 
+/*mid*/
 .fox-mid{
     
 }
+.green-img{
+    margin:-4px;
+}
 
+/*bottom*/
 .fox-bottom{
     max-width: 300px;
-
     background-color: #9C6035;
-    
+
+    box-sizing: border-box;
+
+    padding:20px;
+}
+.name{
+    color:#FFFFFF;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: arial;
+}
+.info{
+    color:#E8BC9C;
+    font-size: 16x;
+    font-weight: normal;
+    font-family: arial;
 }
