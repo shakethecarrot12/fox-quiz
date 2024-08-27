@@ -1,0 +1,16 @@
+/*reset*/
+body{
+    margin:unset;
+}
+
+.header{
+    box-shadow: inset 0 0 20px red;
+}
+
+.main{
+    box-shadow: inset 0 0 20px red;
+}
+
+.footer{
+    box-shadow: inset 0 0 20px red;
+}
