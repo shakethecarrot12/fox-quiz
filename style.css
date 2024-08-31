@@ -45,8 +45,10 @@ h1,p{
     max-width: 300px;
     background-color: #9C6035;
 
-    box-sizing: border-box;
+    border-radius: 0 0 30px 30px;
 
+    box-sizing: border-box;
+    box-shadow: 0px 10px 0px#46260E;
     padding:20px;
 }
 .name{
@@ -54,10 +56,12 @@ h1,p{
     font-size: 36px;
     font-weight: bold;
     font-family: arial;
+    
 }
 .info{
     color:#E8BC9C;
     font-size: 16x;
     font-weight: normal;
     font-family: arial;
+    
 }
